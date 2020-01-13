@@ -79,7 +79,7 @@ class UR_Preview {
 	 * @return string
 	 */
 	public function template_include() {
-		return locate_template( array( 'page.php', 'single.php' ) );
+		return locate_template( array( 'page.php', 'single.php', 'singular.php' ) );
 	}
 
 	/**
